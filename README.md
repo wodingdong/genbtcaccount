@@ -2,6 +2,14 @@
 
 穷举助记词，使用C程序生成助记词，以及生成对应的私钥和地址，生成是三种地址(1开头地址，3开头地址，bc开头地址)。使用python调用C的程序，将对地址到[blockchain](https://www.blockchain.com/explorer)上去查余额，若有余额，则记下当前的私钥和地址信息。
 
+windows环境：
+
+vs2015，python3
+
+linux环境：
+
+ubuntu1804，python3
+
 ```
 b'social cricket gold tent mandate join gather kick toddler trash vibrant liquid'
 b''
