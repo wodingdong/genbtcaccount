@@ -1,6 +1,11 @@
 #pragma once
 
-#define EXPORTFUC (extern "C" __declspec(dllexport))
+
+#ifdef _WIN32
+#define EXPORTFUC __declspec(dllexport)
+#else
+#define EXPORTFUC 
+#endif
 
 #define CODE_FAILSE			0
 #define CODE_SUCCESS		1
@@ -33,13 +38,13 @@ typedef struct btc_account
 #define VERSION_BIP84_XPRIVATE 0x04b2430c  // xprv
 
 // Éú³ÉÖú¼Ç´Ê
-__declspec(dllexport)
+EXPORTFUC
 int gen_mnemonic(int len, char* mnemonic);
 
-
 // int gen_btc_account(const char* mnemonic, const char* passphrase, char* pri, char* address);
-__declspec(dllexport)
+EXPORTFUC
 int gen_btc_account(const char* mnemonic, const char* passphrase, btc_account* accoun);
 
-__declspec(dllexport)
+
+EXPORTFUC
 int test_call(int a);

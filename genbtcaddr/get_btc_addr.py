@@ -1,12 +1,16 @@
 # -*- coding: utf8 -*-
 
+import sys
 import ctypes
 from ctypes import *
 import logging
 
 import get_bitcoin as bt
-
-DLL_PATH = "./../x64/Debug/getbtc.dll"
+platform = sys.platform
+if 'linux' == platform:
+    DLL_PATH = "../getbtc/build/libgenbtcaddr.so"
+else:
+    DLL_PATH = "./../x64/Debug/getbtc.dll"
 
 func = cdll.LoadLibrary(DLL_PATH)
 
