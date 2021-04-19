@@ -82,6 +82,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
+      <DisableSpecificWarnings>4996;4146</DisableSpecificWarnings>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -145,7 +146,6 @@
     <ClCompile Include="hmac.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="memzero.c" />
-    <ClCompile Include="nem.c" />
     <ClCompile Include="nist256p1.c" />
     <ClCompile Include="pbkdf2.c" />
     <ClCompile Include="rand.c" />
@@ -194,8 +194,6 @@
     <ClInclude Include="hexutils.h" />
     <ClInclude Include="hmac.h" />
     <ClInclude Include="memzero.h" />
-    <ClInclude Include="nem.h" />
-    <ClInclude Include="nem_serialize.h" />
     <ClInclude Include="nist256p1.h" />
     <ClInclude Include="options.h" />
     <ClInclude Include="pbkdf2.h" />

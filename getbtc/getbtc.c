@@ -6,7 +6,6 @@
 #include "address.h"
 #include "base58.h"
 #include "bip32_bip39.h"
-#include "base32_bch.h"
 #include "ripemd160.h"
 #include "bech32.h"
 

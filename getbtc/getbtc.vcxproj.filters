@@ -78,9 +78,6 @@
     <ClCompile Include="memzero.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="nem.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="nist256p1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -207,12 +204,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="memzero.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="nem.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="nem_serialize.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="nist256p1.h">
