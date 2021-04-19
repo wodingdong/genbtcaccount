@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\aes">
+      <UniqueIdentifier>{9b9d2290-9cfd-4f6d-84c0-0dd6dbdc082f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ed25519-donna">
+      <UniqueIdentifier>{3426b45e-3edb-46b2-b8ce-40b93ba866b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="address.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="base32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="base58.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bech32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bignum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bip32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bip32_bip39.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bip39.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="blake2b.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="blake2s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="blake256.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cash_addr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="curves.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ecdsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hasher.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hexutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hmac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="memzero.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nist256p1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pbkdf2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rand.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ripemd160.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="secp256k1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sha2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sha3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aes\aes_modes.c">
+      <Filter>Header Files\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="aes\aescrypt.c">
+      <Filter>Header Files\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="aes\aeskey.c">
+      <Filter>Header Files\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="aes\aestab.c">
+      <Filter>Header Files\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519-donna\curve25519-donna-32bit.c">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519-donna\curve25519-donna-helpers.c">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519-donna\curve25519-donna-scalarmult-base.c">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519-donna\ed25519.c">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519-donna\ed25519-donna-32bit-tables.c">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519-donna\ed25519-donna-basepoint-table.c">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519-donna\ed25519-donna-impl-base.c">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519-donna\ed25519-keccak.c">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519-donna\ed25519-sha3.c">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClCompile>
+    <ClCompile Include="ed25519-donna\modm-donna-32bit.c">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClCompile>
+    <ClCompile Include="getbtc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="address.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base58.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bech32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bignum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bip32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bip32_bip39.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bip39.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bip39_english.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="blake2_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="blake2b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="blake2s.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="blake256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cash_addr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="curves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ecdsa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hasher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hexutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hmac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="memzero.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nem_serialize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nist256p1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pbkdf2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rfc6979.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ripemd160.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="secp256k1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sha2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sha3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aes\aes.h">
+      <Filter>Header Files\aes</Filter>
+    </ClInclude>
+    <ClInclude Include="aes\aesopt.h">
+      <Filter>Header Files\aes</Filter>
+    </ClInclude>
+    <ClInclude Include="aes\aestab.h">
+      <Filter>Header Files\aes</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519-donna\curve25519-donna-32bit.h">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519-donna\curve25519-donna-helpers.h">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519-donna\curve25519-donna-scalarmult-base.h">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519-donna\ed25519.h">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519-donna\ed25519-donna.h">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519-donna\ed25519-donna-32bit-tables.h">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519-donna\ed25519-donna-basepoint-table.h">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519-donna\ed25519-donna-impl-base.h">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519-donna\ed25519-donna-portable.h">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519-donna\ed25519-hash-custom.h">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519-donna\ed25519-hash-custom-keccak.h">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519-donna\ed25519-hash-custom-sha3.h">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519-donna\ed25519-keccak.h">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519-donna\ed25519-sha3.h">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClInclude>
+    <ClInclude Include="ed25519-donna\modm-donna-32bit.h">
+      <Filter>Header Files\ed25519-donna</Filter>
+    </ClInclude>
+    <ClInclude Include="getbtc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nist256p1.table" />
+    <None Include="secp256k1.table" />
+  </ItemGroup>
+</Project>
