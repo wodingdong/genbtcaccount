@@ -158,6 +158,8 @@ int gen_btc_account(const char* mnemonic, const char* passphrase, btc_account* a
 
 		ecdsa_get_wif(node.private_key, 0x80, HASHER_SHA2D, accoun[i].pri, 53);
 		get_btc_address(i, node.public_key, accoun[i].addr);
+
+		// printf("i:%d\npri:%s\naddr:%s\n", i, accoun[i].pri, accoun[i].addr);
 	}
 
 	return CODE_SUCCESS;
@@ -195,4 +197,9 @@ int gen_mnemonic(int len, char* mnemonic)
 	memcpy(mnemonic, mn, strlen(mn) + 1);
 
 	return CODE_SUCCESS;
+}
+
+int test_call(int a)
+{
+	printf("ddd");
 }
