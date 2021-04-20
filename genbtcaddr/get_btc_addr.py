@@ -88,13 +88,14 @@ def main_run_btc_():
 
 if __name__ == "__main__":
     main_index = 0
-    sub_index = 1
+    sub_index = 0
     while 1:
         main_run_btc_()
         print("-----index---{0}--{1}-----".format(main_index, sub_index))
         sub_index = sub_index + 1
-        if sub_index > 1000:
+        if sub_index >= 1000:
             main_index = main_index + 1
+            sub_index = 0
         
     
     
