@@ -10,7 +10,7 @@ linux环境：
 
 ubuntu1804，python3
 
-```
+```sh
 b'social cricket gold tent mandate join gather kick toddler trash vibrant liquid'
 b''
 L1E3pdz7iE68JEFRZLFAiXX1rjdLwFfC6LEwrtCwMNkPftRSyK4n
@@ -25,6 +25,22 @@ L4f1BkxDYsY5bxXvLT5a2Fw3XFaEpZ3wJuLuBriMFH6GatCv8KcP
 bc1qkntgl3aujc6aenmxgdmmh7j8y5ah6jq2dt0way
 balance:0.00000000
 *******************continue find!*******************
+```
+
+linux环境中使用下述使用编译libgenbtcaddr.so
+
+```shell
+cd getbtc
+mkdir build
+cd build
+cmake ..
+```
+
+之后启动程序：
+
+```sh
+cd genbtcaddr
+python get_btc_addr.py
 ```
 
 
