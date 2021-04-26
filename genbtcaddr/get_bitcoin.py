@@ -21,7 +21,7 @@ def get_bitcoin_balance(address):
     text = response.text
     index = text.find(key_word)
     if index < 0:
-        print("******can not find index*******")
+        print("text:{}   index: {} -----------can not find index-----------".format(text,index))
         return 0;
     short = text[index:index+100]
     btc = short.find("BTC")
